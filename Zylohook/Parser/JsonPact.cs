@@ -35,7 +35,7 @@ namespace Zylohook
             }
             else
             {
-                Console.WriteLine($"Key \"{key}\" already exists. Use Update() if needed.");
+                throw new NotImplementedException($"Key \"{key}\" already exists. Use Update() if needed.");
             }
         }
 
